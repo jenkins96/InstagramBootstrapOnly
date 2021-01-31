@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Instagram Bootstrap</title>
+</head>
+
+<body>
+
+    <!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea2"></label>
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+                    </div>
+                    <a href="#"><button class="btn btn-light bg-white"><i class="fas fa-camera"></i></button></a>
+                    <a href="#"><button class="btn btn-light bg-white"><i
+                                class="fas fa-map-marker-alt"></i></button></a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- class="navbar-brand" href="#"><i class="fab fa-instagram mr-2 h5"></i></a>-->
+            <img src="https://www.virtualstacks.com/wp-content/uploads/2019/11/instagram-logo-name.png" width=150px
+                height=40px alt=""></img>
+            <div class="float-right">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Create a new post
+                        </button>
+                        <div class="dropdown p-2">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-cog"></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!--Iconos Centrales-->
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="index.html"><button class="btn btn-light bg-white"><i class="fas fa-th"></i></button></a>
+                <a href="post.html"><button class="btn btn-light bg-white"><i class="fas fa-square"></i></button></a>
+            </div>
+        </div>
+        <!--Post-->
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="card my-5">
+                    <div class="card-body">
+                        <h4 class="card-title">Photo!</h4>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">150 Likes</h6>
+                        <p class="card-text">Photo took by <a href="https://unsplash.com/@wexor" target="_blank">Wexor
+                                Tmg</a></a></p>
+                    </div>
+                    <div class="card-footer">
+                        <i class="far fa-heart"></i> Comment
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Post-->
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="card my-5">
+                    <div class="card-body">
+                        <h4 class="card-title">Photo!</h4>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1496387314164-18b0105f7553?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">150 Likes</h6>
+                        <p class="card-text">Photo took by <a href="https://unsplash.com/@jeremybishop"
+                                target="_blank">Jeremy Bishop</a></a></p>
+                    </div>
+                    <div class="card-footer">
+                        <i class="far fa-heart"></i> Comment
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Post-->
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="card my-5">
+                    <div class="card-body">
+                        <h4 class="card-title">Photo!</h4>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1453805622064-de9796753c22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">150 Likes</h6>
+                        <p class="card-text">Photo took by <a href="https://unsplash.com/@pjswinburn"
+                                target="_blank">Philip Swinburn</a></a></p>
+                    </div>
+                    <div class="card-footer">
+                        <i class="far fa-heart"></i> Comment
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
